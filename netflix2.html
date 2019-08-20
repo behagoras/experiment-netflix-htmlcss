@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	.hero{
+		background-image: url("img/hero.jpg");
+		color: white;
+
+	}
+	.black-hero{
+		background-color: rgba(0,0,0,.5);
+		height: 700px;
+	}
+
+	.logo img{
+		max-width:300px;
+		margin: auto;
+		text-align: center;
+		display: block;
+	}
+	header{
+  		width: 100%;
+  		display: block;
+  		height: 150px;
+	}
+	header div, header nav{
+		width: 33%;
+		float: left;
+
+	}
+	nav{
+		top: 25%;
+		margin: 50px auto;
+	}
+	nav ul{
+		float: right;
+		list-style: none;
+	}
+	nav ul li{
+		float: left;
+		margin: 0 10px;
+	}
+
+	nav a {
+		background-color: red;
+		padding: 5px 20	px;
+		color: white;
+		text-decoration: none;
+	}
+	.center-content{
+		text-align: center;
+		display: block;
+		width: 100%;
+		float: left;
+	}
+	h1{
+		font-size: 75px
+	}
+	.center-content p{
+		font-size: 25px;
+		width: 100%;
+	}
+	.center-content .button a{
+		display: block;
+		width: 550px;
+		height: 30px;
+		padding: 20px;
+		margin: 0 auto;
+	}
+
+	.center-content a{
+		color: white;
+		text-decoration: none;
+		font-size: 30px;
+	}
+	#tabs{
+		background-color: #333;
+	}
+	#tabs .container{
+		width: 80%;
+		height: 150px;
+		margin: 0 auto;
+	}
+	#tabs .tab{
+		width: 33%;
+		display: block;
+		float: left;
+		text-align: center;
+		color: white;
+		padding: 0;
+		margin: 30px 0;
+	}
+	.tab.selected{
+		border-bottom: 5px red solid;
+	}
+	.tab-container{
+		background-color: black;
+		height: 700px;
+		width: 100%;
+	}
+	.tab-container .left p{
+		color: white;
+		text-align: left;
+	}
+	.left{
+		float: left;
+		display: block;
+	}
+	.tab-container .container{
+		display: block;
+		float: left;
+		padding: 0 10%;
+	}
+	.right{
+		float: right;
+	}
+	.tab-container .container div{
+		width: 50%;
+	}
+	.tab-container .container p{
+		font-size: 40px;
+	}
+	.tab-container .container a{
+		background-color: red;
+		text-decoration: none;
+		color: white;
+		padding: 15px 30px;
+	}	
+	.tab-container div.right img{
+		width: 100%;
+	}
+	.tab-container .container{
+		width: 700px;
+		margin: 0 auto;
+		display: block;
+	}
+	.button a{
+		padding: 5px 15px;
+		background-color: red;
+
+	}
+
+</style>
+<body>
+	<div class="hero">
+		<div class="black-hero">
+			<header>
+				<div>&nbsp;</div>
+				<div class="logo"><img src="img/logo.png"></div>
+				<nav>
+					<ul>
+						<li>Tienes Cuenta</li>
+						<li class="button"><a href="#">Iniciar sesión</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="center-content">
+				<h1>Tu pr&oacute;xima historia, ahora</h1>
+				<p>DISFRUTA CUANDO QUIERAS, CANCELA CUANDO QUIERAS</p>
+				<div class="button"><a href="#">DISFRUTA GRATIS POR 14 DÍAS</a></div>
+				
+			</div>			
+		</div>
+	</div>
+	<div id="tabs">
+		<div class="container">
+			<div class="tab selected">
+				<img src="img/door.png">
+				<p>
+					Sin compromisos, <br>Cancela online cuando quieras.
+				</p>
+			</div>
+			<div class="tab">
+				<img src="img/tv.png">
+				<p>
+					Ve desde donde quieras
+				</p>
+			</div>		
+			<div class="tab">
+				<img src="img/label.png">
+				<p>
+					Ve desde donde quieras
+				</p>
+			</div>		
+		</div>
+		<div class="tab-container">
+			<div class="container">
+				<div class="left">
+					<p>
+						Si piensas que Netflix no es lo tuyo, no hay problema.  Sin compromisos. Cancela online cuando quieras.
+					</p>
+					<div class="button">
+						<a href="#">
+							DISFRUTA GRATIS POR 14 DÍAS
+						</a>
+					</div>
+				</div>
+			<div class="right">
+				<img src="img/dispositivos.png">
+			</div>				
+			</div>
+			
+		</div>
+	</div>
+
+</body>
+</html>
