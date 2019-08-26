@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jerarquia</title>
+    <style>
+        .bloque{
+            width: 150px;
+            height: 150px;
+            float: left;
+            border: 5px solid red;
+            background: lightblue;
+        }
+        .bloque a div{
+            text-align: center;
+            background: lightblue;
+        }
+        .footer button{
+            width: 100%;
+        }
+        .bloque:nth-of-type(3){
+            background: lightcoral;
+        }
+        .bloque:nth-of-type(4)  button{
+            width: 100%;
+            height: 100px;
+            background: yellow;
+        }
+        .bloque:nth-of-type(9){
+            background: magenta!important;
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="bloque a"><a href=""><div>Texto <button>boton</button></div></a></div>
+        <div class="bloque a"><a href=""><div>Texto <button>boton</button></div></a></div>
+        <div class="bloque a bloque3"><a href=""><div>Texto <button>boton</button></div></a></div>
+        <div class="bloque a"><a href=""><div>Texto <button>boton</button></div></a></div>
+        <div class="bloque a"><a href=""><div>Texto <button>boton</button></div></a></div>
+        <div class="bloque a"><a href=""><div>Texto <button>boton</button></div></a></div>
+        <div class="bloque a"><a href=""><div>Texto <button>boton</button></div></a></div>
+        <div class="bloque a"><a href=""><div>Texto <button>boton</button></div></a></div>
+        <div class="bloque a"><a href=""><div>Texto <button>boton</button></div></a></div>
+        <div class="bloque a"><a href=""><div>Ingresa tus datos por favor <button>boton</button></div></a></div>
+        <a href="">Footer link</a>
+        <div class="footer">
+            <button>Boton footer</button>
+        </div>
+    </div>
+</body>
+</html>
